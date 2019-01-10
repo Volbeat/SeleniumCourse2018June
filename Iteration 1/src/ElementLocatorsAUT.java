@@ -52,7 +52,7 @@ public class ElementLocatorsAUT {
 			// TODO	
 			
 			//Into the variable called password, pass the value of the Element where name = password
-			WebElement password = driver.findElement(By.name("password"));
+			password = driver.findElement(By.name("password"));
 			password.sendKeys("password");
 				System.out.println("entered password");
 	}
